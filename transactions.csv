@@ -1,0 +1,31 @@
+Transaction ID,Date,Amount,Expected Amount,Variance,Account Type,Transaction Type,Flag Reason
+TXN-001,2025-05-01,$4850.00,$4873.50,$23.50,IRA,Buy,Price variance
+TXN-002,2025-05-01,$173065.00,$172952.00,-$113.00,BRK,Sell,Proceeds overage
+TXN-003,2025-05-01,$260785.00,$260928.00,$143.00,CHK,Deposit,Deposit shortfall
+TXN-004,2025-05-01,$604881.00,$605240.00,$359.00,IRA,Buy,Price variance
+TXN-005,2025-05-01,$183652.00,$183519.00,-$133.00,IRA,Sell,Proceeds overage
+TXN-006,2025-05-01,$287285.00,$287668.00,$383.00,CHK,Deposit,Deposit shortfall
+TXN-007,2025-05-01,$517671.00,$517421.00,-$250.00,IRA,Withdrawal,Withdrawal overage
+TXN-008,2025-05-01,$216846.00,$217332.00,$486.00,CHK,Buy,Price variance
+TXN-009,2025-05-01,$298252.00,$297817.00,-$435.00,BRK,Sell,Proceeds overage
+TXN-010,2025-05-01,$448554.00,$448564.00,$10.00,IRA,Deposit,Minimal variance
+TXN-011,2025-05-01,$457185.00,$456653.00,-$532.00,IRA,Sell,Largest variance
+TXN-012,2025-05-01,$318761.00,$319151.00,$390.00,CHK,Buy,Price variance
+TXN-013,2025-05-01,$40186.00,$39697.00,-$489.00,CHK,Sell,Compliance review
+TXN-014,2025-05-01,$185269.00,$185439.00,$170.00,BRK,Buy,Price variance
+TXN-015,2025-05-01,$584460.00,$584326.00,-$134.00,BRK,Withdrawal,Withdrawal overage
+TXN-016,2025-05-01,$598141.00,$598591.00,$450.00,BRK,Custody Fee,Fee overcharge
+TXN-017,2025-05-01,$117133.00,$117157.00,$24.00,IRA,Buy,Minor variance
+TXN-018,2025-05-01,$194445.00,$194018.00,-$427.00,BRK,Sell,Proceeds overage
+TXN-019,2025-05-01,$628842.00,$629315.00,$473.00,CHK,Deposit,Deposit shortfall
+TXN-020,2025-05-01,$512601.00,$512832.00,$231.00,BRK,Withdrawal,Withdrawal shortfall
+TXN-021,2025-05-01,$312450.00,$624900.00,$312450.00,BRK,Buy,Stock split not applied
+TXN-022,2025-05-01,$18240.00,$18650.00,$410.00,IRA,Deposit,Dividend rate variance
+TXN-023,2025-05-01,$94310.00,$94310.00,$0.00,CHK,Deposit,Dividend settlement delay
+TXN-024,2025-05-01,$47825.00,$53200.00,$5375.00,BRK,Sell,Short sell dividend
+TXN-025,2025-05-01,$285000.00,$285000.00,$0.00,IRA,Deposit,Delayed deposit
+TXN-026,2025-05-01,$142780.00,$0.00,-$142780.00,CHK,Deposit,Returned payment
+TXN-027,2025-05-01,$500000.00,$500000.00,$0.00,BRK,Withdrawal,Capital call
+TXN-028,2025-05-01,$76540.00,$82110.00,$5570.00,BRK,Sell,Short sell dividend rate error
+TXN-029,2025-05-01,$398620.00,$398620.00,$0.00,IRA,Buy,Merger consideration pending
+TXN-030,2025-05-01,$63450.00,$71200.00,$7750.00,CHK,Custody Fee,Dividend rate on fee calculation

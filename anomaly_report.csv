@@ -1,0 +1,31 @@
+transaction_id,date,amount,expected_amount,variance,abs_variance,pct_variance,zscore,account_type,transaction_type,risk,flags,action
+TXN-021,2025-05-01,312450.0,624900.0,312450.0,312450.0,50.0,4.8,BRK,Buy,High,"Large absolute variance: $312,450.00 | Variance exceeds 5% of expected (50.0%) | Statistical outlier: z-score 4.80",Escalate to senior operations immediately — resolve before market open.
+TXN-026,2025-05-01,142780.0,0.0,-142780.0,142780.0,0,2.05,CHK,Deposit,High,"Large absolute variance: $142,780.00 | Statistical outlier: z-score 2.05 | Expected amount is $0 — possible returned payment or unrecorded transaction",Notify client immediately and verify originating bank details before reprocessing.
+TXN-030,2025-05-01,63450.0,71200.0,7750.0,7750.0,10.88,-0.13,CHK,Custody Fee,Medium,Variance exceeds 5% of expected (10.9%),Review trade confirmation and counterparty details by end of day.
+TXN-028,2025-05-01,76540.0,82110.0,5570.0,5570.0,6.78,-0.17,BRK,Sell,Medium,Variance exceeds 5% of expected (6.8%),Review trade confirmation and counterparty details by end of day.
+TXN-024,2025-05-01,47825.0,53200.0,5375.0,5375.0,10.1,-0.17,BRK,Sell,Medium,Variance exceeds 5% of expected (10.1%),Review trade confirmation and counterparty details by end of day.
+TXN-011,2025-05-01,457185.0,456653.0,-532.0,532.0,0.12,-0.25,IRA,Sell,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-013,2025-05-01,40186.0,39697.0,-489.0,489.0,1.23,-0.25,CHK,Sell,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-008,2025-05-01,216846.0,217332.0,486.0,486.0,0.22,-0.25,CHK,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-019,2025-05-01,628842.0,629315.0,473.0,473.0,0.08,-0.25,CHK,Deposit,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-016,2025-05-01,598141.0,598591.0,450.0,450.0,0.08,-0.25,BRK,Custody Fee,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-009,2025-05-01,298252.0,297817.0,-435.0,435.0,0.15,-0.25,BRK,Sell,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-018,2025-05-01,194445.0,194018.0,-427.0,427.0,0.22,-0.25,BRK,Sell,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-022,2025-05-01,18240.0,18650.0,410.0,410.0,2.2,-0.25,IRA,Deposit,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-012,2025-05-01,318761.0,319151.0,390.0,390.0,0.12,-0.25,CHK,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-006,2025-05-01,287285.0,287668.0,383.0,383.0,0.13,-0.25,CHK,Deposit,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-004,2025-05-01,604881.0,605240.0,359.0,359.0,0.06,-0.25,IRA,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-007,2025-05-01,517671.0,517421.0,-250.0,250.0,0.05,-0.26,IRA,Withdrawal,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-020,2025-05-01,512601.0,512832.0,231.0,231.0,0.05,-0.26,BRK,Withdrawal,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-014,2025-05-01,185269.0,185439.0,170.0,170.0,0.09,-0.26,BRK,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-003,2025-05-01,260785.0,260928.0,143.0,143.0,0.05,-0.26,CHK,Deposit,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-015,2025-05-01,584460.0,584326.0,-134.0,134.0,0.02,-0.26,BRK,Withdrawal,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-005,2025-05-01,183652.0,183519.0,-133.0,133.0,0.07,-0.26,IRA,Sell,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-002,2025-05-01,173065.0,172952.0,-113.0,113.0,0.07,-0.26,BRK,Sell,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-017,2025-05-01,117133.0,117157.0,24.0,24.0,0.02,-0.26,IRA,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-001,2025-05-01,4850.0,4873.5,23.5,23.5,0.48,-0.26,IRA,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-010,2025-05-01,448554.0,448564.0,10.0,10.0,0.0,-0.26,IRA,Deposit,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
+TXN-023,2025-05-01,94310.0,94310.0,0.0,0.0,0.0,-0.26,CHK,Deposit,Low,Zero variance on Deposit — verify settlement received,Confirm deposit settlement was received and posted correctly.
+TXN-025,2025-05-01,285000.0,285000.0,0.0,0.0,0.0,-0.26,IRA,Deposit,Low,Zero variance on Deposit — verify settlement received,Confirm deposit settlement was received and posted correctly.
+TXN-027,2025-05-01,500000.0,500000.0,0.0,0.0,0.0,-0.26,BRK,Withdrawal,Low,Zero variance on Withdrawal — verify settlement received,Confirm withdrawal settlement was received and posted correctly.
+TXN-029,2025-05-01,398620.0,398620.0,0.0,0.0,0.0,-0.26,IRA,Buy,Low,Minor variance — within normal tolerance,Monitor and document — no immediate action required.
